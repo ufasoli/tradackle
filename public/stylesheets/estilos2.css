@@ -1,0 +1,155 @@
+body {	background-color:#6f5B42;}
+#general {
+	width: 900px;
+	margin-right:auto;
+	margin-left:auto;
+	min-height:690px;
+	height:auto;
+	font-size:12px;
+
+}
+#cabecera{background-image: url("/assets/images/cabecera.gif");height:229px;width:900px;}
+#logo {width:478px;height:100px;float:left;}
+#besoin-de-traduire{margin-top:30px;width:280px;height:100px; float:right;}
+#menu {
+	float:left;
+	margin-top:20px;
+	margin-left:50px;
+	width: 580px;
+	text-align:center;
+}
+#menu img {
+	border:0;
+	margin-left:auto;
+	margin-right:auto;
+	text-decoration:none;
+}
+#cuerpo_central {background-image:url("/assets/images/fondo_central.gif"); overflow:auto; width:900px;}
+#contenido_central {
+	float:left;
+	width: 640px;
+	text-align: justify;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	margin-left:75px;
+	margin-right:33px;
+}
+#contenido_central p {
+	margin-top:0px; line-height: 1.5em;
+}
+#contenido_central h1 {
+	text-align:left; font-size:1.4em;color:#95a63c; margin-top:0px;}
+#contenido_central h2 {
+	text-align:left; font-size:1.2em;}
+#fin_contenido_central {background-image:url("/assets/images/pie.gif"); width:900px; height:105px;}
+#pie {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #330000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-align: center;
+}
+
+#contacto {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 150px;
+	float: left;
+	margin-bottom: 100px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+#contacto_2 {
+	float: left;
+	height: 150px;
+	width: 300px;
+	border-right-width: thin;
+	border-right-style: dashed;
+	border-right-color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+ul {
+	list-style: url("/assets/images/pluma-lista.gif");
+	margin-left: 20px; /* Quitamos los margenes */
+	margin-top: 10px;
+	padding:0px; /* Quitamos el padding */
+	text-align: left;
+	font-size: em;
+}
+li {margin-top:10px;}
+.centrado {text-align:center;}
+dl#idiomas {
+	 float:left;
+	 background: url("/assets/images/banderitas.gif") left top no-repeat;
+     width: 150px;
+     height: 380px;
+	 margin-top:0px;
+     position: relative;
+     }
+
+dd {
+     position: absolute;
+}
+dd#anglais_def {
+     top: 20px;
+     left: 0px;
+}
+dd#anglais_def a {
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     text-decoration: none;
+     border: 0px;
+}
+dd#espagnol_def {
+     top: 110px;
+     left: 0px;
+}
+dd#espagnol_def a {
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     text-decoration: none;
+     border: 0px;
+}
+dd#italien_def {
+     top: 200px;
+     left: 0px;
+}
+dd#italien_def a {
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     text-decoration: none;
+     border: 0px;
+}
+dd#francais_def {
+     top: 310px;
+     left: 0px;
+}
+dd#francais_def a {
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     text-decoration: none;
+     border: 0px;
+}
+#traductrices {margin-top:0px;}
+#traductrices li{ display:inline; margin-left:3px; color:#090}
+
+a { font-family:Verdana, Geneva, sans-serif; font-size:em; color:#95a63c; text-decoration:none;}
+a:active { font-family:Verdana, Geneva, sans-serif; font-size:em; color:#95a63c; text-decoration:none;}
+a:visited { font-family:Verdana, Geneva, sans-serif; font-size:em; color:#95a63c; text-decoration:none;}
+a:hover { font-family:Verdana, Geneva, sans-serif; font-size:em; color:#ffffff; text-decoration:none;}
+
+#foto_ficha {float:right;margin-left:15px; margin-top:0px; margin-right:5px;width:100px; height:120px;}
+#foto_ficha img {width:96px; height:119px;}

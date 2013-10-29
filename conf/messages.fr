@@ -1,0 +1,11 @@
+home.home = Accueil
+home.presentation.1 = Bienvenue sur le site de notre
+home.presentation.2 = Nous sommes cinq traductrices indépendantes diplômées, de même formation et justifiant chacune de plusieurs années d?expérience. Collaborant régulièrement sur divers projets, nous avons souhaité nous associer afin de mieux répondre aux attentes des clients.
+home.presentation.3 = Spécialisées dans divers domaines, tels que la santé, la gastronomie, le tourisme et le marketing, pour n'en citer que quelques-uns, nous mettons notre expertise à votre service pour faire voyager votre message, quel qu'il soit, autour du monde.
+home.presentation.4 = Pour en savoir plus à notre sujet, nous vous invitons à consulter les différentes sections de ce site.
+home.presentation.5 = N?hésitez pas à nous contacter si vous avez la moindre question. Vous trouverez nos coordonnées dans la section « Contact ».
+home.presentation.6 = Bonne visite et au plaisir de collaborer avec vous dans un avenir proche !
+
+
+global.team = équipe
+global.team.languages = équipe de traduction anglais italien espagnol français

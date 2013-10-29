@@ -1,7 +1,16 @@
-@(message: String)
+@()(implicit lang:Lang)
 
-@main("Welcome to Play 2.1") {
-    
-    @play20.welcome(message)
-    
+@main("Test"){
+    <h1>@Messages("home.home")</h1>
+    <br />
+    <p>@Messages("home.presentation.1") <a href="@routes.Application.team()" title="@Messages("global.team.languages")">@Messages("global.team")</a> !</p>
+    <p>@Messages("home.presentation.2")</p>
+    <p>@Messages("home.presentation.3")</p>
+    <p>@Messages("home.presentation.4")</p>
+    <p>@Messages("home.presentation.5")</p>
+    <p>@Messages("home.presentation.6")</p>
+
+
 }
+
+

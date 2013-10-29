@@ -1,15 +1,83 @@
-@(title: String)(content: Html)
+@(title: String)(content: Html)(implicit lang:play.api.i18n.Lang)
 
 <!DOCTYPE html>
 
 <html>
+
     <head>
-        <title>@title</title>
-        <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
-        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
-        <script src="@routes.Assets.at("javascripts/jquery-1.9.0.min.js")" type="text/javascript"></script>
-    </head>
-    <body>
-        @content
-    </body>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-language" content=”fr” />
+        <meta name="description" content="Pour vous, nous traduisons en français vos textes anglais, espagnol et italiens. Notre travail en équipe est le gage d'une plus grande disponibilité et d'une meilleure réactivité. Nous sommes ainsi en mesure de nous consacrer à des projets de différentes envergures, à court, à moyen ou à long terme." />
+        <meta name="keywords" content="traduction anglais français, traduction espagnol français" />
+        <title>Pourquoi nous ? - Tradackle Traduction</title>
+        <link href="@routes.Assets.at("stylesheets/estilos2.css")" rel="stylesheet" type="text/css" />
+
+<body>
+
+
+
+        <div id="general">
+            <div id="cabecera">
+                <div id="logo"><img src="@routes.Assets.at("/images/logo.gif")" alt="" /></div>
+                <div id="besoin-de-traduire"><img src="@routes.Assets.at("/images/besoin-de-traduire-vos-idees.gif")" alt=""/></div>
+                <div id="menu">
+                    <a href="index.html" title="Traduction">
+                        <img src="@routes.Assets.at("/images/accueil.gif")" alt="traduction" />
+                    </a>
+                    <a href="services.html" title="Traduction et interpretation">
+                        <img src="@routes.Assets.at("/images/services.gif")" alt="traduction et interpretation"/>
+                    </a>
+                    <a href="atouts.html" title="domaines de traduction">
+                        <img src="@routes.Assets.at("/images/atouts-active.gif")" alt="domaines de traduction" />
+                    </a>
+                    <a href="tarifs.html" title="clients">
+                        <img src="@routes.Assets.at("/images/tarifs.gif")" alt="clients"/>
+                    </a>
+                    <a href="contact.html" title="coordonées de contact">
+                        <img src="@routes.Assets.at("/images/contact.gif")" alt="coordonées de contact"/>
+                    </a>
+                    <a href="equipe-de-traduction-anglais-italien-espagnol-francais.html" title="équipe de traduction anglais français italien espagnol"><img src="@routes.Assets.at("/images/notre-equipe.gif")" alt="équipe de traduction anglais français italien espagnol"/></a>
+                </div>
+            </div> <!-- cabecera -->
+            <div id="cuerpo_central">
+                <div id="contenido_central">
+                  @content
+                </div>
+                <dl id="idiomas">
+                    <dd id="anglais_def">
+                        <a href="@routes.Locale.changeLocale("en")" title="lien version anglaise"></a>
+                    </dd>
+                    <dd id="espagnol_def">
+                        <a href="@routes.Locale.changeLocale("es")" title="lien version espagnole"></a>
+                    </dd>
+                    <dd id="italien_def">
+                        <a href="@routes.Locale.changeLocale("it")" title="lien version italienne"></a>
+                    </dd>
+                    <dd id="francais_def">
+                        <a href="@routes.Locale.changeLocale("fr")" title="lien version française"></a>
+                    </dd>
+                </dl>
+            </div>
+            <div id="fin_contenido_central"></div>
+            <div id="pie">Tradackle 2010 - E-mail :
+                <a href="mailto:info@@tradackle.com">info@@tradackle.com</a>
+</div>
+</div>
+
+
+        <!-- Google Analytics -->
+    <script type="text/javascript">
+
+    var _gaq = _gaq ||[ ] ;
+    _gaq.push ([ '_setAccount', 'UA-10704629-7' ] ) ;
+    _gaq.push ([ '_trackPageview' ] ) ;
+
+    ( function ( ) {
+    var ga = document.createElement ( 'script' ) ; ga.type = 'text/javascript' ; ga.async = true ;
+    ga.src = ( 'https:' == document.location.protocol ? 'https://ssl' : 'http://www' ) + '.google-analytics.com/ga.js' ;
+    var s = document.getElementsByTagName ( 'script' )[ 0 ] ; s.parentNode.insertBefore ( ga, s ) ;
+    } ) ( ) ;
+
+    </script>
+</body>
 </html>
